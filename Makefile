@@ -15,3 +15,5 @@ test:
 
 lint:
 	npm run lint
+
+.PHONY: test
