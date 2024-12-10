@@ -1,9 +1,21 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "type": "module",
   "description": "Generator form",
+  "author": "xyzelena",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyzelena/typescript-project-81.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xyzelena/typescript-project-81/issues"
+  },
+  "homepage": "https://github.com/xyzelena/typescript-project-81#readme",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "start:dev": "npx nodemon",
@@ -14,8 +26,6 @@
     "test": "vitest",
     "test-coverage": "npx vitest run --coverage"
   },
-  "author": "xyzelena",
-  "license": "ISC",
   "simple-git-hooks": {
     "pre-push": "make lint"
   },
